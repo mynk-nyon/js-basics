@@ -9,5 +9,13 @@ let myDate = new Date()
 // let myCreatedDate = new Date(2024, 11, 23)
 // let myCreatedDate = new Date(2024, 11, 23, 23, 53)
 
+let myCreatedDate = new Date("12-23-2024")
+// console.log(myCreatedDate.toLocaleString());
 
-console.log(myCreatedDate.toLocaleString());
+let myTimeStamp = Date.now()
+
+console.log(myTimeStamp);
+console.log(myCreatedDate.getTime());
+console.log(Date.now()/1000);
+
+
