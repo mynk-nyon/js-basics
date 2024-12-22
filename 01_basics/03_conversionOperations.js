@@ -16,7 +16,9 @@ let isLoggedIn = ""
 
 let booleanIsLoggedIn = Boolean(isLoggedIn)
 
-// console.log(booleanIsLoggedIn);
+console.log(booleanIsLoggedIn);
+// console.log(isLoggedIn);
+
 
 // 1 => true
 // 0 => false
@@ -49,7 +51,7 @@ let str2 = " Mayank sir"
 
 let str3 = str1 + str2
 
-console.log(str3);
+// console.log(str3);
 
 // PREFIX / POSTFIX Operations
 
