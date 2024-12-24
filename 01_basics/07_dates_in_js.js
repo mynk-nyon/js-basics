@@ -12,6 +12,7 @@ let myDate = new Date()
 
 let myCreatedDate = new Date("12-23-2024")
 // console.log(myCreatedDate.toLocaleString());
+console.log(myCreatedDate);
 
 let myTimeStamp = Date.now()
 
@@ -19,6 +20,11 @@ console.log(myTimeStamp);
 console.log(myCreatedDate.getTime());
 console.log(Date.now()/1000);
 
+// `${newDate.hetDay()} and the time`
+
+myCreatedDate.toLocaleString('default', {
+    weekday: "long",
+})
 
 
 
