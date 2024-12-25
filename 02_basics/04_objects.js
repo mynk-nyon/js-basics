@@ -43,11 +43,31 @@ const users = [
 
 users[1].email
 
-console.log(tinderUser);
+// console.log(tinderUser);
 
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
 
-console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+// console.log(tinderUser.hasOwnProperty('isLoggedIn'));
 
+
+const course = {
+    coursename: "Js in hindi",
+    price: "999",
+    courseInstructor: "Mayank"
+}
+
+//course.courseInstructor
+
+const {courseInstructor: instructor} = course
+
+console.log(instructor);
+
+// {
+//     "name": "Mayank",
+//     "coursename": "js in hindi",
+//     "price": "free"
+// }
+
+// JSON Formatter to learn more about APIs
