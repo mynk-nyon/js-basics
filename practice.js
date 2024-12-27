@@ -8,6 +8,8 @@ classRoom = "MCA"
 // console.table([name, schoolName, classRoom]);
 
 console.log(typeof null);
+console.log(typeof schoolName);
+
 
 
 
