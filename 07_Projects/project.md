@@ -1,9 +1,11 @@
 # Projects
 ## Project 1 (Color Scheme Switcher) 
-### {Link}
+### Githhub 
 
+#### [Project Link ]("https://github.com/mynk-nyon/JAVASCRIPT_PRACTICE_PROJECTS")
+
+### Solution CODE of JavaScript
 ```javascript
-
 const buttons = document.querySelectorAll('.button');
 const body = document.querySelector('body');
 
@@ -25,6 +27,4 @@ buttons.forEach(function (button) {
     }
   });
 });
-
-
 ```
